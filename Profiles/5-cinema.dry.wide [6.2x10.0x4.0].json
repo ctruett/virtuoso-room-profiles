@@ -1,24 +1,24 @@
 {
-  "roomType": 1,
-  "acousticsMacros": {
-    "ambience": 0.30000001192092896,
-    "reverbTime": 0.2400000095367432,
-    "sourceDistance": 1.7000000476837158,
-    "gain": 0.0
-  },
-  "roomSettings": {
-    "dimensions": {
-      "width": 6.200000286102295,
-      "depth": 10.0,
-      "height": 4.0
+    "roomType": 1,
+    "acousticsMacros": {
+        "ambience": 0.29999998211860657,
+        "reverbTime": 0.24000000953674316,
+        "sourceDistance": 1.6999999284744263,
+        "gain": 0.5
     },
-    "damping": {
-      "high": 0.5,
-      "low": 1.0
-    },
-    "reverbLiveliness": {
-      "high": 0.4899999797344208,
-      "low": 0.4799999892711639
+    "roomSettings": {
+        "dimensions": {
+            "width": 6.2000002861022949,
+            "depth": 10.0,
+            "height": 4.0
+        },
+        "damping": {
+            "high": 0.5,
+            "low": 1.0
+        },
+        "reverbLiveliness": {
+            "high": 0.48999997973442078,
+            "low": 0.47999998927116394
+        }
     }
-  }
 }

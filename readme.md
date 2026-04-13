@@ -1,5 +1,7 @@
 # APL Virtuoso Profiles
 
+These are in order from close to distant, dry to wet.
+
 | Filename                                          |     Room Type      | Description                                                                                   |
 | :------------------------------------------------ | :----------------: | :-------------------------------------------------------------------------------------------- |
 | **default [4.8x6.5x4.7].json**                    | **Dubbing Stage**  | A standard dubbing stage profile featuring a 1.73m source distance and balanced 0.5 ambience. |

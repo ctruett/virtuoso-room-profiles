@@ -3,8 +3,8 @@
     "acousticsMacros": {
         "ambience": 0.19999998807907104,
         "reverbTime": 0.39999997615814209,
-        "sourceDistance": 3.809999942779541,
-        "gain": 0.0
+        "sourceDistance": 2.3199999332427979,
+        "gain": 2.4000015258789062
     },
     "roomSettings": {
         "dimensions": {
