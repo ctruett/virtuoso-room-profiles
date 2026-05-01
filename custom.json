@@ -1,0 +1,24 @@
+{
+    "roomType": 1,
+    "acousticsMacros": {
+        "ambience": 0.5,
+        "reverbTime": 0.25,
+        "sourceDistance": 1.5,
+        "gain": 0.0
+    },
+    "roomSettings": {
+        "dimensions": {
+            "width": 7.0,
+            "depth": 4.6000003814697266,
+            "height": 3.5
+        },
+        "damping": {
+            "high": 0.5,
+            "low": 1.0
+        },
+        "reverbLiveliness": {
+            "high": 0.5,
+            "low": 0.5
+        }
+    }
+}
