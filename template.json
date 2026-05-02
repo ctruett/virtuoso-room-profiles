@@ -1,0 +1,52 @@
+{
+    // APL Virtuoso Room Profile Template
+    // Copy this file to create a new room profile.
+    // Adjust values according to your target acoustic characteristics.
+
+    "roomType": 1,
+    // Room Type ID:
+    //   0 = Listening Room (domestic)
+    //   1 = Control Room L (professional large)
+    //   2 = Control Room M (professional medium)
+    //   3 = Control Room S (professional small)
+    //   4 = Dubbing Stage (professional vocal-centric)
+    //   5 = Home Cinema (domestic)
+    //   6 = Living Room (domestic versatile)
+
+    "acousticsMacros": {
+        // Ambience: Overall reflection density (0.0 = anechoic, 1.0 = highly reflective)
+        "ambience": 0.5,
+
+        // Reverb Time: Decay duration in seconds (0.1s = very dry, 0.6s = very wet)
+        "reverbTime": 0.25,
+
+        // Source Distance: Simulated distance from listener to sound source in meters (0.5m-10.0m)
+        "sourceDistance": 1.73,
+
+        // Gain: Overall volume offset in decibels (-6.0dB to +6.0dB typical range)
+        "gain": 0.0
+    },
+
+    "roomSettings": {
+        "dimensions": {
+            // Room physical dimensions in meters (width x depth x height)
+            "width": 4.8,
+            "depth": 6.5,
+            "height": 4.7
+        },
+
+        "damping": {
+            // High-frequency absorption (0.0 = fully reflective, 1.0 = fully absorbed)
+            "high": 0.5,
+            // Low-frequency absorption (0.0 = fully reflective, 1.0 = fully absorbed)
+            "low": 0.5
+        },
+
+        "reverbLiveliness": {
+            // High-frequency reverb activity (0.0 = dead, 1.0 = highly lively)
+            "high": 0.5,
+            // Low-frequency reverb activity (0.0 = dead, 1.0 = highly lively)
+            "low": 0.5
+        }
+    }
+}
